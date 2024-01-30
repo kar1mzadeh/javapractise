@@ -8,19 +8,19 @@ public class Month {
 
         // Parse command-line arguments as integers
         int num1 = Integer.parseInt(args[0]);
-        int num2 = Integer.parseInt(args[1]);
+        int alaq = Integer.parseInt(args[1]);
 
         // Perform arithmetic operations
-        int sum = num1 + num2;
-        int subtraction = num1 - num2;
-        int multiplication = num1 * num2;
+        int sum = num1 + alaq;
+        int subtraction = num1 - alaq;
+        int multiplication = num1 * alaq;
 
         // Avoid division by zero
         int integerDivision = 0;
         int remainder = 0;
-        if (num2 != 0) {
-            integerDivision = num1 / num2;
-            remainder = num1 % num2;
+        if (alaq != 0) {
+            integerDivision = num1 / alaq;
+            remainder = num1 % alaq;
         } else {
             System.out.println("Cannot perform integer division. Division by zero.");
         }

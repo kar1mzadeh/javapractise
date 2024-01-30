@@ -21,7 +21,7 @@ class Test {
 
 public class StaticUsage {
     public static void main(String[] args) {
-        Test obj = new Test();
+        Test obj = new Test();       
         obj.questionOpenminded = 10;
         obj.staff = "Roof Academy";
         obj.name = "SAT";
@@ -31,6 +31,7 @@ public class StaticUsage {
         obj2.staff = "Turing academy";
         obj2.name = "SEC";
         obj.test(); // Corrected method call
+
     }
 }
 // In this lecture we are discussing:
