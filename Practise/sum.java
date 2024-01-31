@@ -4,10 +4,10 @@ public class sum
      public static void main(String[] args)
      {
         Scanner scanner = new Scanner(System.in);
-        int a=scanner.nextInt();
+        int firstNumber=scanner.nextInt();
 
-        int b=scanner.nextInt();
-        System.out.println(a+b);
+        int secondNumber=scanner.nextInt();
+        System.out.println(First+Second);
         
 
 
