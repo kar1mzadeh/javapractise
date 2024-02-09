@@ -1,26 +1,15 @@
 import java.util.Scanner;
-public class arithmetic {
+public class as {
     public static void main(String[] args) {
 
-        Scanner scanner = new Scanner(System.in);
-        int num1 =scanner.nextInt();
-        int num2=scanner.nextInt();
-        int sum = num1 + num2;
-        int subtraction = num1 - num2;
-        int multiplication = num1 * num2;
+        int cnt = 10;
 
-        int integerDivision = 0;
-        int remainder = 0;
-        if (num2 != 0) {
-            integerDivision = num1 / num2;
-            remainder = num1 % num2;
-        } else {
-            System.out.println(" Division by zero is impossible .");
-        }
-        System.out.println( sum);
-        System.out.println(  subtraction);
-        System.out.println(  multiplication);
-        System.out.println(  integerDivision);
-        System.out.println(  remainder);
+while (cnt >= 3) {
+
+ cnt -= 2;
+
+ System.out.print(cnt + " ");
+
+}
     }
 }
