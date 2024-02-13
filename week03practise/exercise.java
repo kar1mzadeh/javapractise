@@ -5,8 +5,12 @@ import java.util.Arrays;
 public class exercise {
     public static void main(String[] args) {
         
-        int [] array = {1,5,4,32};
-    
+
+        
+        int[] array = new int[args.length];
+        for (int i = 0; i < args.length; i++) {
+            array[i] = Integer.parseInt(args[i]);
+        }
         System.out.println(Arrays.toString(array));
         System.out.println(Sum(array));
     }
@@ -20,7 +24,7 @@ public static int Sum (int[] a)
 
     for (int i=0; i<a.length; i++)
      {
-        sum= sum +a[i];
+        sum +=a[i];
      }
      return sum;
 }
