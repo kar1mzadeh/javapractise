@@ -1,3 +1,5 @@
+package week03practise;
+
 import java.util.Arrays;
 
 class Arrayspractise { 
