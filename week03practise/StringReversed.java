@@ -6,10 +6,10 @@ public class StringReversed {
         System.out.println(reverse(string));
     }
 
-    static String reverse(String s) {
+    static String reverse(String string) {
         String reverse_s = "";
-        for (int i = s.length() - 1; i >= 0; i--) {
-            reverse_s += s.charAt(i);
+        for (int i = string.length() - 1; i >= 0; i--) {
+            reverse_s += string.charAt(i);
         }
         return reverse_s;
     }
