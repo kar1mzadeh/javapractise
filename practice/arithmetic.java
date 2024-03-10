@@ -1,5 +1,4 @@
-import java.util.Scanner;
-public class as {
+public class arithmetic {
     public static void main(String[] args) {
 
         int cnt = 10;

@@ -1,4 +1,4 @@
-class Test {
+class Test1 {
     static int questionOpenminded;
     String staff;
     String name;
@@ -7,9 +7,11 @@ class Test {
         questionOpenminded = 10;
         System.out.println("Static");
     }
-    public Test() {
-         String staff = "";
-         String name = "";
+    public Test1() {
+         @SuppressWarnings("unused")
+        String staff = "";
+         @SuppressWarnings("unused")
+        String name = "";
          System.out.println("Constructor");
 
     }
@@ -20,13 +22,14 @@ class Test {
 }
 
 public class StaticUsage {
+    @SuppressWarnings("static-access")
     public static void main(String[] args) {
-        Test obj = new Test();       
+        Test1 obj = new Test1();       
         obj.questionOpenminded = 10;
         obj.staff = "Roof Academy";
         obj.name = "SAT";
 
-        Test obj2 = new Test();
+        Test1 obj2 = new Test1();
         obj2.questionOpenminded = 10;
         obj2.staff = "Turing academy";
         obj2.name = "SEC";

@@ -7,9 +7,10 @@ public class sum
         int firstNumber=scanner.nextInt();
 
         int secondNumber=scanner.nextInt();
-        System.out.println(First+Second);
+        System.out.println(firstNumber+secondNumber);
         
 
-
+scanner.close();
      }
+    
  }

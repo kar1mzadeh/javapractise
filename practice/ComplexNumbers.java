@@ -1,7 +1,4 @@
-package practice;
 
-import java.util.Scanner;
-import practice.Test;
 class ComplexNumbers {
     double imaginary;
     double real;
